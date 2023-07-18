@@ -1,0 +1,64 @@
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 100px;
+  margin-top: 50px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dashboard-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f7d065;
+  color: saddlebrown;
+}
+
+.best-card .card {
+  padding: 0px;
+}
+
+.best-card .card-body {
+  padding: 0px;
+}
+
+.title {
+  display: inline-block;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.author {
+  display: inline-block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.card-stats {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 10px;
+  /* height: 800px; */
+  text-align: left;
+  background-color: #f7d065;
+  color: saddlebrown;
+}
+
+.form-inline {
+  float: right;
+  margin-left: auto;
+}
